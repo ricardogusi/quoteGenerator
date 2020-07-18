@@ -6,7 +6,7 @@ export default function Input() {
 
     const [quotes, setQuotes] = useState('')
     const [author, setAuthor] = useState('')
-    const [counter, setCounter] = useState(0)
+    
 
     useEffect(() => {
       get()
